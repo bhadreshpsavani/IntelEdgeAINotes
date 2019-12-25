@@ -22,3 +22,12 @@ Edge Application Life Cycle:
 * Image Detection: Find Location of Multiple Objects and create bounding boxes on image
 
 * Image Segmentation: create Segements in the image based on the pixel values 
+
+
+### Comon Computer Vision Architectures:
+
+* #### SSD #### is an object detection network that combined classification with object detection through the use of default bounding boxes at different network levels. 
+
+* #### ResNet #### utilized residual layers to “skip” over sections of layers, helping to avoid the vanishing gradient problem with very deep neural networks. 
+
+* #### MobileNet #### utilized layers like 1x1 convolutions to help cut down on computational complexity and network size, leading to fast inference without substantial decrease in accuracy.
