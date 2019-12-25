@@ -8,7 +8,11 @@ Edge Application Life Cycle:
 
 ![image1](https://github.com/bhadreshpsavani/MachineLearningOnEdge/blob/master/images/edgeApplicationLifeCycle.png)
 
-Image Classification: Classify Image in classes
-Image Localization: Find location of Single Object in image
-Image Detection: Find Location of Multiple Objects and create bounding boxes on image
-Image Segmentation: create Segements in the image based on the pixel values 
+Computer Vision Problems:
+* Image Classification: Classify Image in classes
+
+* Image Localization: Find location of Single Object in image
+
+* Image Detection: Find Location of Multiple Objects and create bounding boxes on image
+
+* Image Segmentation: create Segements in the image based on the pixel values 
