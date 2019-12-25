@@ -5,7 +5,8 @@ Application:
 * Remote Nature Camera
 
 Edge Application Life Cycle:
-![image1](https://github.com/bhadreshpsavani/MachineLearningOnEdge/edit/master/images/edgeApplicationLifeCycle.png)
+
+![image1](https://github.com/bhadreshpsavani/MachineLearningOnEdge/blob/master/images/edgeApplicationLifeCycle.png)
 
 Image Classification: Classify Image in classes
 Image Localization: Find location of Single Object in image
