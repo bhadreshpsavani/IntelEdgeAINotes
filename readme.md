@@ -14,7 +14,7 @@ Edge Application Life Cycle:
 
 -  By optimizing for model speed and size, OpenVINO™ enables running at the edge
 
-Computer Vision Problems:
+### Computer Vision Problems:
 * Image Classification: Classify Image in classes
 
 * Image Localization: Find location of Single Object in image
