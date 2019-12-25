@@ -34,3 +34,12 @@ utilized residual layers to “skip” over sections of layers, helping to avoid
 
 * #### MobileNet #### 
 utilized layers like 1x1 convolutions to help cut down on computational complexity and network size, leading to fast inference without substantial decrease in accuracy.
+
+* #### YULO ####
+
+You Only Look Once
+A single neural network predicts bounding boxes and class probabilities directly from full images in one evaluation
+
+* #### RCNN ####
+
+introduce a Region Proposal Network (RPN) that shares full-image convolutional features with the detection network, thus enabling nearly cost-free region proposals. An RPN is a fully convolutional network that simultaneously predicts object bounds and objectness scores at each position
