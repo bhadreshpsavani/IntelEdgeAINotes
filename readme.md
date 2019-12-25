@@ -8,6 +8,12 @@ Edge Application Life Cycle:
 
 ![image1](https://github.com/bhadreshpsavani/MachineLearningOnEdge/blob/master/images/edgeApplicationLifeCycle.png)
 
+### OpenVINO toolkit:
+
+- "Open Visual Inferencing and Neural Network Optimization"
+
+-  By optimizing for model speed and size, OpenVINO™ enables running at the edge
+
 Computer Vision Problems:
 * Image Classification: Classify Image in classes
 
