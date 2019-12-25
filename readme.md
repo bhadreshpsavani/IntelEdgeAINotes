@@ -26,20 +26,19 @@ Edge Application Life Cycle:
 
 ### Comon Computer Vision Architectures:
 
-* #### SSD #### 
+* #### [SSD](https://arxiv.org/abs/1512.02325) #### 
 is an object detection network that combined classification with object detection through the use of default bounding boxes at different network levels. 
 
-* #### ResNet #### 
+* #### [ResNet](https://arxiv.org/abs/1512.03385) #### 
 utilized residual layers to “skip” over sections of layers, helping to avoid the vanishing gradient problem with very deep neural networks. 
 
-* #### MobileNet #### 
+* #### [MobileNet](https://arxiv.org/abs/1704.04861) #### 
 utilized layers like 1x1 convolutions to help cut down on computational complexity and network size, leading to fast inference without substantial decrease in accuracy.
 
-* #### YULO ####
-
+* #### [YOLO](https://arxiv.org/abs/1506.02640) ####
 You Only Look Once
 A single neural network predicts bounding boxes and class probabilities directly from full images in one evaluation
 
-* #### RCNN ####
+* #### [RCNN](https://arxiv.org/pdf/1311.2524.pdf) ####
 
 introduce a Region Proposal Network (RPN) that shares full-image convolutional features with the detection network, thus enabling nearly cost-free region proposals. An RPN is a fully convolutional network that simultaneously predicts object bounds and objectness scores at each position
