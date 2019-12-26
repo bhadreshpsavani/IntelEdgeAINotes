@@ -1,5 +1,15 @@
 Edge? : Local or Near Local Process not just anywhere on the cloud
 
+Edge vs Cloud:
+* Edge  : Edge means no need to send to the cloud;it can be more secure and have less impact on your network.
+* Cloud : Cloud applications get data locally, send to the cloud for processing then send back a response. 
+
+Importance of Edge in AI:
+* Network Impacts
+* Latency considerations
+* Security concerns
+* Optimizations for local inference
+
 Application:
 * Self Driving Cars
 * Remote Nature Camera
@@ -8,13 +18,13 @@ Edge Application Life Cycle:
 
 ![image1](https://github.com/bhadreshpsavani/MachineLearningOnEdge/blob/master/images/edgeApplicationLifeCycle.png)
 
-### OpenVINO toolkit:
+### [OpenVINO toolkit](https://software.intel.com/en-us/openvino-toolkit):
 
 - "Open Visual Inferencing and Neural Network Optimization"
 
 -  By optimizing for model speed and size, OpenVINO™ enables running at the edge
 
-### Computer Vision Problems:
+### [Computer Vision Problems](https://medium.com/analytics-vidhya/image-classification-vs-object-detection-vs-image-segmentation-f36db85fe81):
 * Image Classification: Classify Image in classes
 
 * Image Localization: Find location of Single Object in image
@@ -24,7 +34,7 @@ Edge Application Life Cycle:
 * Image Segmentation: create Segements in the image based on the pixel values 
 
 
-### Comon Computer Vision Architectures:
+### Common Computer Vision Architectures:
 
 * #### [SSD](https://arxiv.org/abs/1512.02325) #### 
 is an object detection network that combined classification with object detection through the use of default bounding boxes at different network levels. 
@@ -42,3 +52,16 @@ A single neural network predicts bounding boxes and class probabilities directly
 * #### [RCNN](https://arxiv.org/pdf/1311.2524.pdf) ####
 
 introduce a Region Proposal Network (RPN) that shares full-image convolutional features with the detection network, thus enabling nearly cost-free region proposals. An RPN is a fully convolutional network that simultaneously predicts object bounds and objectness scores at each position
+
+
+### [Available Pre-Trained Models in OpenVINO](https://software.intel.com/en-us/openvino-toolkit/documentation/pretrained-models)
+
+* #### Pre-Trained Models: Types
+    * Classification : Age & Gender Recognition
+    * Detection : Pedestrian Detection
+    * segmentation : Advanced Roadside Identification
+    
+* #### Pre-Trained Models: Architectures
+    * SSD : Enhanced Model-Face Detection
+    * MobileNet : Standard Model-Face Detection
+    * SSD+MobileNet : Pedestrian and Vehicle Detection
