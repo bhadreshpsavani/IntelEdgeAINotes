@@ -67,5 +67,14 @@ introduce a Region Proposal Network (RPN) that shares full-image convolutional f
     * SSD+MobileNet : Pedestrian and Vehicle Detection
     
 ### How Pretrained Model are Optimized for better Edge Deployment? ###
-* Different Precisions: less memory, less compute
+* Different Precisions: less memory, less compute (trade-offs with accuracy when using lower precision)
 * Fusing Layers in to Fewer Layers
+
+### Preprocessing Input to the Model: ###
+* Depends on selected model
+* Required to do common image based preprocessing like resize, normalization etc.
+* Checkout input section of pretrained model documentation to determin shape of input
+
+### Process the Output: ###
+Depending upon the application we need to process output to get desired output.
+
