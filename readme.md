@@ -65,3 +65,7 @@ introduce a Region Proposal Network (RPN) that shares full-image convolutional f
     * SSD : Enhanced Model-Face Detection
     * MobileNet : Standard Model-Face Detection
     * SSD+MobileNet : Pedestrian and Vehicle Detection
+    
+### How Pretrained Model are Optimized for better Edge Deployment? ###
+* Different Precisions: less memory, less compute
+* Fusing Layers in to Fewer Layers
