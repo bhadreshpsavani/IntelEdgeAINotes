@@ -79,6 +79,6 @@ introduce a Region Proposal Network (RPN) that shares full-image convolutional f
 Depending upon the application we need to process output to get desired output.
 
 ### Optimization Techniques ###
-* quantization
-* freezing 
-* fusion
+* Quantization : Quantization is the process of reducing the precision of a model(Precision of the model can be 32bit,16bit,8bit)
+* Freezing : Freezing a TensorFlow model is usually a good idea whether before performing direct inference or converting with the Model Optimizer
+* Fusion : Fusion relates to combining multiple layer operations into a single operation
