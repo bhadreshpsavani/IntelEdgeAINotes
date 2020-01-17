@@ -78,3 +78,7 @@ introduce a Region Proposal Network (RPN) that shares full-image convolutional f
 ### Process the Output: ###
 Depending upon the application we need to process output to get desired output.
 
+### Optimization Techniques ###
+* quantization
+* freezing 
+* fusion
