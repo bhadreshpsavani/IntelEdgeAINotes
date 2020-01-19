@@ -101,3 +101,6 @@ The supported frameworks with the OpenVINO™ Toolkit are:
 * No need to consider Freezing/UnFreezing Model since its a TensorFlow concept 
 * Caffe models need to feed both the `.caffemodel` file, as well as a `.prototxt` file, into the Model Optimizer. 
 * If the `.prototxt` file has same name like `.caffemodel` model file, only the model needs to be directly input as an argument, while if the `.prototxt` file has a different name than the model, it should be fed in with `--input_proto` as well.
+
+### 3. [ONNX Model to IR](https://docs.openvinotoolkit.org/latest/_docs_MO_DG_prepare_model_convert_model_Convert_Model_From_ONNX.html)###
+* No need of aditional arguments, conversion is possible with general arguments of earlier representations
