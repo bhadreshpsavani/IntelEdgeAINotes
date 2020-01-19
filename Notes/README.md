@@ -102,5 +102,16 @@ The supported frameworks with the OpenVINO™ Toolkit are:
 * Caffe models need to feed both the `.caffemodel` file, as well as a `.prototxt` file, into the Model Optimizer. 
 * If the `.prototxt` file has same name like `.caffemodel` model file, only the model needs to be directly input as an argument, while if the `.prototxt` file has a different name than the model, it should be fed in with `--input_proto` as well.
 
-### 3. [ONNX Model to IR](https://docs.openvinotoolkit.org/latest/_docs_MO_DG_prepare_model_convert_model_Convert_Model_From_ONNX.html)###
+### 3. [ONNX Model to IR](https://docs.openvinotoolkit.org/latest/_docs_MO_DG_prepare_model_convert_model_Convert_Model_From_ONNX.html): ###
 * No need of aditional arguments, conversion is possible with general arguments of earlier representations
+
+### [Cutting Model as an Optimization Technique](https://docs.openvinotoolkit.org/latest/_docs_MO_DG_prepare_model_convert_model_Cutting_Model.html): ###
+![Why Cutting](/images/cuttingModel.png)
+Some common reasons for cutting are:
+* The model has pre- or post-processing parts that don’t translate to existing Inference Engine layers.
+* The model has a training part that is convenient to be kept in the model, but is not used during inference.
+* The model is too complex with many unsupported operations, so the complete model cannot be converted in one shot.
+* The model is one of the supported SSD models. In this case, you need to cut a post-processing part off.
+* There could be a problem with model conversion in the Model Optimizer or with inference in the Inference Engine. To localize the issue, cutting the model could help to find the problem
+
+There’s two main command line arguments to use for cutting a model with the Model Optimizer, named intuitively as `--input` and `--output`, where they are used to feed in the layer names that should be either the new entry or exit points of the model.
