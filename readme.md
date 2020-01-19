@@ -85,11 +85,11 @@ Depending upon the application we need to process output to get desired output.
 
 ## Convert Trained Model in to IR form using Model Optimizer: ##
 The supported frameworks with the OpenVINO™ Toolkit are:
-* (Caffe)[https://caffe.berkeleyvision.org/]
-* (TensorFlow)[https://www.tensorflow.org/]
-* (MXNet)[https://mxnet.apache.org/]
-* (ONNX) (which can support PyTorch and Apple ML models through another conversion step)[https://onnx.ai/]
-* (Kaldi) [https://kaldi-asr.org/doc/dnn.html]
+* [Caffe](https://caffe.berkeleyvision.org/)
+* [TensorFlow](https://www.tensorflow.org/)
+* [MXNet](https://mxnet.apache.org/)
+* [ONNX (which can support PyTorch and Apple ML models through another conversion step)](https://onnx.ai/)
+* [Kaldi](https://kaldi-asr.org/doc/dnn.html)
 
 ### 1. Tensorflow Models to IR: ###
 * Whether to use a frozen or unfrozen model, 
