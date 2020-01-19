@@ -84,14 +84,20 @@ Depending upon the application we need to process output to get desired output.
 * Fusion : Fusion relates to combining multiple layer operations into a single operation
 
 ## Convert Trained Model in to IR form using Model Optimizer: ##
+The supported frameworks with the OpenVINO™ Toolkit are:
+* (Caffe)[https://caffe.berkeleyvision.org/]
+* (TensorFlow)[https://www.tensorflow.org/]
+* (MXNet)[https://mxnet.apache.org/]
+* (ONNX) (which can support PyTorch and Apple ML models through another conversion step)[https://onnx.ai/]
+* (Kaldi) [https://kaldi-asr.org/doc/dnn.html]
 
-### 1. Tensorflow Models: ###
+### 1. Tensorflow Models to IR: ###
 * Whether to use a frozen or unfrozen model, 
 * Unfrozen models usually need the `--mean_values` and `--scale` parameters fed to the Model Optimizer, while the frozen models from the Object Detection Model Zoo don’t need those parameters.
 * The frozen models will need TensorFlow-specific parameters like `--tensorflow_use_custom_operations_config` and `--tensorflow_object_detection_api_pipeline_config`. Also, `--reverse_input_channels` is usually needed, as TF model zoo models are trained on RGB images, while OpenCV usually loads as BGR. 
 * Certain models, like YOLO, DeepSpeech, and more, have their own separate pages.
 
-### 2. Caffee Model: ###
+### 2. Caffee Model to IR: ###
 * No need to consider Freezing/UnFreezing Model since its a TensorFlow concept 
 * Caffe models need to feed both the `.caffemodel` file, as well as a `.prototxt` file, into the Model Optimizer. 
-* If they have the same name, only the model needs to be directly input as an argument, while if the `.prototxt` file has a different name than the model, it should be fed in with `--input_proto` as wel
+* If the `.prototxt` file has same name like `.caffemodel` model file, only the model needs to be directly input as an argument, while if the `.prototxt` file has a different name than the model, it should be fed in with `--input_proto` as well.
