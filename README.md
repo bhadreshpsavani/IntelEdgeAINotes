@@ -12,9 +12,10 @@ This Project is a collaction of notes by students in Intel Edge AI Scholarship C
 I would like to thank [Deepak Khatri](https://github.com/deepaklorkhatri007) for creating Markup files(.md) file which is used in all the lessons as a README.md for quick reference.
 
 ### Contributors: ###
-+ [Fabrizio Cacicia](https://github.com/fabriziocacicia)
 + [Deepak Khatri](https://github.com/deepaklorkhatri007)
++ [Patrick Hartmann](https://github.com/HartP97)
++ [Fabrizio Cacicia](https://github.com/fabriziocacicia)
 + [Hasanul Karim](https://github.com/hasanulkarim)
 + [Shreyam Kesarwani](https://github.com/k12shreyam)
-+ [Patrick Hartmann](https://github.com/HartP97)
+
 
