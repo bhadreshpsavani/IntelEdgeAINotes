@@ -16,4 +16,5 @@ I would like to thank [Deepak Khatri](https://github.com/deepaklorkhatri007) for
 + [Deepak Khatri](https://github.com/deepaklorkhatri007)
 + [Hasanul Karim](https://github.com/hasanulkarim)
 + [Shreyam Kesarwani](https://github.com/k12shreyam)
++ [Patrick Hartmann](https://github.com/HartP97)
 
