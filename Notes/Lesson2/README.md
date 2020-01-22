@@ -209,3 +209,6 @@ Precision refers to the level of detail to weights and biases in a neural networ
 - [MobileNet](https://arxiv.org/abs/1704.04861)
 - [ResNet](https://arxiv.org/abs/1512.03385)
 - [Inception](https://arxiv.org/pdf/1409.4842.pdf)
+
+
+For Lesson3 Notes [Click here](/Notes/Lesson3/)
