@@ -121,3 +121,5 @@ There’s two main command line arguments to use for cutting a model with the Mo
 * Provide hardware based optimization.
 * API to integrate app with edge devices
 * Build in C++ can also use Python Wrapper
+* It also provides computer vision functions for inferance 
+* CPU, VPU(Visual Processing Unit), GPU, FPGAs(Field Processing Graphical Arrays)
