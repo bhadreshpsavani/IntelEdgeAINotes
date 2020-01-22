@@ -115,3 +115,9 @@ Some common reasons for cutting are:
 * There could be a problem with model conversion in the Model Optimizer or with inference in the Inference Engine. To localize the issue, cutting the model could help to find the problem
 
 There’s two main command line arguments to use for cutting a model with the Model Optimizer, named intuitively as `--input` and `--output`, where they are used to feed in the layer names that should be either the new entry or exit points of the model.
+
+
+## Inferance Engine:
+* Provide hardware based optimization.
+* API to integrate app with edge devices
+* Build in C++ can also use Python Wrapper
