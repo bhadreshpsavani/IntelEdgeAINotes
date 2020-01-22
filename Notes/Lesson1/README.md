@@ -75,3 +75,5 @@ From the first network ATMs in the 1970's, to the World Wide Web in the 90's, an
 - The basics of the edge
 - The importance of the edge and its history.
 - Edge applications
+
+For Lesson2 Notes [Click here](/Notes/Lesson2/)
