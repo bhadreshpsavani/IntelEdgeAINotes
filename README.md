@@ -5,7 +5,7 @@ This Project is a collaction of notes by students in Intel Edge AI Scholarship C
 + [`Lesson1`](/Notes/Lesson1): Introduction to AI at the Edge
 + [`Lesson2`](/Notes/Lesson2): Leveraging Pre-train Models
 + [`Lesson3`](/Notes/Lesson3): The Model Optimizer
-+ [`Lesson4`](/Notes/Lesson3): The Inference Engine
++ [`Lesson4`](/Notes/Lesson4): The Inference Engine
 + [`HandWrittenNotes`](/Notes/General): HandWritten Notes about the Tutorials
 
 ## Acknowledgements ##
