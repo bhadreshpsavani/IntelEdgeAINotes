@@ -123,3 +123,4 @@ There’s two main command line arguments to use for cutting a model with the Mo
 * Build in C++ can also use Python Wrapper
 * It also provides computer vision functions for inferance 
 * CPU, VPU(Visual Processing Unit), GPU, FPGAs(Field Processing Graphical Arrays)
+* Use the Inferenace Engine with IR: [`IECore`](https://docs.openvinotoolkit.org/latest/classie__api_1_1IECore.html)(Python wrapper) and [`IENetwork`](https://docs.openvinotoolkit.org/latest/classie__api_1_1IENetwork.html)(holds the network)
