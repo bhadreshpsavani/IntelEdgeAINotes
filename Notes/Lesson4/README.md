@@ -176,3 +176,6 @@ Individual inference requests, such as image by image, to the Inference Engine. 
 - [OpenVINO™ on a Raspberry Pi and Intel® Neural Compute Stick](https://www.pyimagesearch.com/2019/04/08/openvino-opencv-and-movidius-ncs-on-the-raspberry-pi/)
 - [Best language for machine learning](https://towardsdatascience.com/what-is-the-best-programming-language-for-machine-learning-a745c156d6b7)
 - [Optimization Guide](https://docs.openvinotoolkit.org/latest/_docs_optimization_guide_dldt_optimization_guide.html)
+
+
+For Lesson5 Notes [Click here](/Notes/Lesson5/)
