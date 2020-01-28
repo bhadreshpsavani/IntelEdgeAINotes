@@ -1,5 +1,5 @@
 # IntelEdgeAINotes #
-This Project is a collaction of notes by students in Intel Edge AI Scholarship Challenge.
+This Project is a collection of notes by students in Intel Edge AI Scholarship Challenge.
 
 ## Repo Structure: ##
 + [`Lesson1`](/Notes/Lesson1): Introduction to AI at the Edge
