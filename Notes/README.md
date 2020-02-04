@@ -125,3 +125,8 @@ There’s two main command line arguments to use for cutting a model with the Mo
 * CPU, VPU(Visual Processing Unit), GPU, FPGAs(Field Processing Graphical Arrays)
 * Use the Inferenace Engine with IR: [`IECore`](https://docs.openvinotoolkit.org/latest/classie__api_1_1IECore.html)(Python wrapper) and [`IENetwork`](https://docs.openvinotoolkit.org/latest/classie__api_1_1IENetwork.html)(holds the network)
 * [`Executable Network`](https://docs.openvinotoolkit.org/latest/classie__api_1_1ExecutableNetwork.html)=`IECore` with loaded `IENetwork`. It is where [inference request](https://docs.openvinotoolkit.org/latest/classie__api_1_1InferRequest.html)(synchronous/asynchronous) is handled. 
+
+## MQQT (MQ Telemetry Transport):
+lightweight publish/subscribe architecture
+Resource-constrained devices and low-bandwidth setups
+It is for * machine-to-machine communication *
