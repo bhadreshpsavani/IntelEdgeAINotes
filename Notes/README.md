@@ -127,6 +127,12 @@ There’s two main command line arguments to use for cutting a model with the Mo
 * [`Executable Network`](https://docs.openvinotoolkit.org/latest/classie__api_1_1ExecutableNetwork.html)=`IECore` with loaded `IENetwork`. It is where [inference request](https://docs.openvinotoolkit.org/latest/classie__api_1_1InferRequest.html)(synchronous/asynchronous) is handled. 
 
 ## MQQT (MQ Telemetry Transport):
-lightweight publish/subscribe architecture
-Resource-constrained devices and low-bandwidth setups
-It is for * machine-to-machine communication *
+* lightweight publish/subscribe architecture
+* Resource-constrained devices and low-bandwidth setups
+* It is for *machine-to-machine communication
+* very lightweight
+* used with self-driving cars, such as with the Robot Operating System, or ROS for short
+
+### Publish/Subscribe:
+* One client publishes to a topic, another client subscribes to the topic and The broker handles passing the message from the publishing client on that topic to any subscribers
+
