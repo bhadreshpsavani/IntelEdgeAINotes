@@ -136,3 +136,5 @@ There’s two main command line arguments to use for cutting a model with the Mo
 ### Publish/Subscribe:
 * One client publishes to a topic, another client subscribes to the topic and The broker handles passing the message from the publishing client on that topic to any subscribers
 
+### FFMPAG :
+“fast forward” MPEG, meaning it’s supposed to be a fast way of handling the MPEG video standard, you can also use a flask server to do some similar things
