@@ -9,6 +9,9 @@ This Project is a collection of notes by students in Intel Edge AI Scholarship C
 + [`Lesson5`](/Notes/Lesson5): Deploying an Edge App
 + [`HandWrittenNotes`](/Notes/General): HandWritten Notes about the Tutorials
 
+## Aditional Resources: ##
+[`Repository`](https://github.com/dohahelmy/resources-intel-edge-ai-scholarship-2020) for the Intel Edge AI Fundamental course resources
+
 ## Acknowledgements ##
 I would like to thank [Deepak Khatri](https://github.com/deepaklorkhatri007) for creating Markup files(.md) file which is used in all the lessons as a README.md for quick reference.
 
